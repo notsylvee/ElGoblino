@@ -99,6 +99,6 @@ module.exports = {
 
         const voiceline = voicelines[Math.floor(Math.random() * voicelines.length)];
     
-        await interaction.reply({ content: `${voiceline}`, ephemeral: false });
+        await interaction.reply({ content: `${voiceline}` });
       },
 }
